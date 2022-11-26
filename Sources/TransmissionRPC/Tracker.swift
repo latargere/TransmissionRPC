@@ -61,7 +61,7 @@ open class Tracker: NSObject, Codable {
     public var lastScrapeStartTime: TimeInterval = 0
     public var lastScrapeSucceeded: Bool = false
     public var lastScrapeTime: TimeInterval = 0
-    public var lastScrapeTimedOut: TimeInterval = 0
+    public var lastScrapeTimedOut: Bool = false
     public var leecherCount: Int = 0
     public var nextAnnounceTime: TimeInterval = 0
     public var nextScrapeTime: TimeInterval = 0
